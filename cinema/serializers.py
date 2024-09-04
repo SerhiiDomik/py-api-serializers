@@ -89,6 +89,6 @@ class MovieSessionListSerializer(serializers.ModelSerializer):
 
 
 class MovieSessionRetrieveSerializer(MovieSessionSerializer):
-    movie = MovieListSerializer()  # MOVIE SERIALIZER LIST RETRIVE??
+    movie = MovieListSerializer()
 
-    cinema_hall = CinemaHallSerializer()   # ADD CAPACITY !!!
+    cinema_hall = CinemaHallSerializer()
